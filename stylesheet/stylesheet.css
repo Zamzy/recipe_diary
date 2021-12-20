@@ -1,0 +1,136 @@
+html {
+ font-size: 100%;    
+   /*全体の色とフォントサイズ*/
+  }
+img {
+    max-width: 100%;
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+body {
+    font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Meiryo", sans-serif;
+}
+
+
+
+
+ main { }
+
+  .main-container {
+    display: flex;
+    margin-bottom: 60px;
+  }
+
+  .mainvisual { 
+        width: 100%;
+        height: 700px;
+        object-fit: cover;
+        vertical-align: bottom;
+    }
+
+    .main-img {
+        width: 50%;
+    }
+
+   .maincol { 
+    width: 50%;
+    padding: 40px 5% 0 5%;
+  
+  }
+
+  .maincol h1 {
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 5%;
+  }
+
+
+
+  .underline{
+    border-bottom: 1px solid #ccc;;
+    margin: auto  0 2.5% 0;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 6px 0;
+}
+
+  .material,
+  .howto {
+    margin-top: 36px;
+  }
+  
+
+  .text1,
+  .text2 {
+    padding: 6px 0;
+    border-bottom: dotted 1px #ccc;
+  }
+
+  .numbers li {
+    margin-left: 20px;
+  }
+
+.lefter {
+    text-align: left;  /* 文章を左寄せする(※) */
+    float: left;     /* 左端に寄せて、後続を右側へ回り込ませる */
+ }
+ .righter {
+    text-align: right; /* 文章を右寄せする */
+ }
+
+.material li,
+ .howto li {    
+    line-height: 25px;
+ }
+
+  .btn {  
+    text-align: center;
+    margin-bottom: 90px;   
+  }
+  .btn a {
+    display: inline-block;
+    border: solid 1px;
+    font-size: 13.5px;
+    padding: 20px 60px;
+    text-decoration: none;
+  }
+
+
+footer {
+  text-align: center;
+  font-size: 12.5px;
+  padding: 10px;
+ 
+}
+    .SNS { 
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        
+     }
+     .SNS p  {
+        margin: 0 10px;
+     }
+    .copyright {
+      font-size: 11px;
+      margin-bottom: 10px;
+    }
+
+@media screen and (max-width: 834px) {
+    .main-container {
+      flex-direction: column;
+    }
+    .main-img {
+      width: 100%;
+    }
+    .mainvisual {
+        height: auto;
+    }
+    .maincol {
+      width: 100%;
+    }
